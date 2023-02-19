@@ -1,15 +1,20 @@
-# 标准
+# 动机
+
+测试 `deno`, `node` 和 `go` 相关框架的性能
+
+## 标准
+
+压测由 [plow](https://github.com/six-ddc/plow) 提供支持
 
 ```shell
 plow http://127.0.0.1:3000/ -c 200 -n 100000
 ```
 
-
 - 同时刻下 200 个连接 
 - 共计 100000 个请求
 
 
-# 结果
+## 结果
 
 平均延迟下，[gin](https://github.com/gin-gonic/gin) 的性能最好。
 
