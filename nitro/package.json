@@ -1,0 +1,11 @@
+{
+  "name": "serve",
+  "scripts": {
+    "dev": "nitropack dev",
+    "build": "nitropack build",
+    "serve": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nitropack": "^2.2.2"
+  }
+}

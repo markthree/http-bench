@@ -1,0 +1,9 @@
+{
+  "name": "koa",
+  "scripts": {
+    "serve": "node index.js"
+  },
+  "dependencies": {
+    "koa": "^2.14.1"
+  }
+}

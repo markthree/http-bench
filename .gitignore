@@ -1,0 +1,4 @@
+*.exe
+.nitro
+.output
+node_modules
